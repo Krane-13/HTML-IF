@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 5</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <p>Alguns elementos importantes:</p>
+    <ul>
+        <li>form</li>
+        <p>Container do formulário</p>
+
+        <li>label</li>
+        <p>Rótulo do componente</p>
+
+        <li>input</li>
+        <p>Diversos tipos de entrada de dados</p>
+
+        <li>select</li>
+        <p>Caixa de combo</p>
+
+        <li>textarea</li>
+        <p>Área de texto grande</p>
+
+        <li>fieldset</li>
+        <p>Agrupamento de campos</p>
+
+        <li>...</li>
+    </ul>
+
+    <form  action="processa.php" method="get">
+    <!-- 
+    action: para especificar qual página receberar os dados do form 
+    mathod: forma de envio dos dados. Duas maneiras 
+    *get: envio dos dados pela própria URL
+    *post: envio dos dados pela conexão HTTP
+    -->
+
+        <label for="nome_cliente">Insira seu nome: </label></br>
+        <!-- for: utilizar o id do respectivo componente. Importante para a acessibilidade do site -->
+        <input  type="text" name="nome_cliente" id="nome_cliente">
+        <!-- 
+            name: tipo nome de variavel, será usado pelo script de processamento
+            id: identificação única do componente 
+         -->
+
+        <label for="data_nasc">Data de nascimento: </label>
+        <input type="date" name="data_nasc" id="data_nasc">
+
+        <label for="email_cadastro">Email de cadastro: </label>
+        <input type="email" name="email_cadastro" id="email_cadastro">
+
+        <input type="password" name="senha" id="senha">
+        <input type="date" name="data_nasc" id="data_nasc">
+        <input type="submit" name="enviar" id="enviar" value="ISSO AÍ (submit)"></input>
+        <button>F (button)</button>
+        <input type="checkbox" ></input>
+        <input type="radio" ></input>
+    </form>
+
+    <h1>Tipos de INPUT + COMUNS</h1>
+    <ul>
+        <li>TEXT: caixa simples de texto</li>
+        <li>PASSWORD: caixa de senha</li>
+        <li>EMAIL: caixa de email *novidade HTML5</li>
+        <li>DATE:caixa referente a data *novidade HTML5</li>
+        <li>SUBMIT: envio de dados</li>
+        <li>RESET: FORM volta aos valores iniciais</li>
+        <li>BUTTON: botão genérico </li>
+        <li>CHECKBOX: certo</li>
+        <li>RADIO: opção e opação</li>
+    </ul>
+</body>
+</html>
