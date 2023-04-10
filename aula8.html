@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Formulario do estudante</h1>
+    <form action="paginas/login" method="GET">
+
+        <label>
+            Nome Complete:
+            <input type="text" name="nome" required>
+        </label><br/>
+        
+
+        <label>
+            CPF:
+            <input type="text" name="cpf" required>
+        </label><br/>
+        
+
+        <label>
+            Data de Nascimento:
+            <input type="date" name="data_nasc" id="data_nasc" required>
+        </label><br>
+
+        <label for="email_cadastro">Email de cadastro: </label >
+
+        <input type="email" name="email_cadastro" id="email_cadastro" required><br>
+
+        <label for="uf">UF: </label>
+        <select name="uf" id="uf">
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Paraná</option>
+        </select><br>
+
+        <label>Informe seu curso: </label>
+            <input type="radio" name="curso" id="c1" value="adm"><label for="c1">ADM</label>
+            <input type="radio" name="curso" id="c2" value="agro"><label for="c2">AGRO</label>
+            <input type="radio" name="curso" id="c3" value="info"><label for="c3">INFO</label> <br>
+        
+        <label>Informe o ANO do curso: </label>
+            <input type="radio" name="ano" id="a1" value="1ano"><label for="a1">1° ANO</label>
+            <input type="radio" name="ano" id="a2" value="2ano"><label for="a2">2° ANO</label>
+            <input type="radio" name="ano" id="a3" value="3ano"><label for="a3">3° ANO</label>           
+            <input type="radio" name="ano" id="a4" value="4ano"><label for="a4">4° ANO</label><br>
+        
+
+        <label>
+            Descrição sobre você(*opcional):</label> <br>
+            <textarea name="descricao"></textarea>
+       
+        
+        <label>
+            <input type="checkbox" >Eu declaro que li e aceito os <a href="paginas/termos.html" target="_blank" class="termoslink">termos de uso</a>
+        </label>
+
+        <button>Fazer Cadastro</button>
+    </form><br>
+
+    <table>
+        <caption>Cadastros dos Alunos</caption>
+        <thead>
+            <tr><th>Nome</th><th >data_nasc</th><th >cpf</th><th>curso</th><th>ano</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>fulano</td><td>05/10/2002</td><td>000.000.000-00</td><td>ADM</td><td>1º ano</td></tr>
+            <tr><td>Zép</td><td>01/06/2004</td><td>000.000.000-01</td><td>AGRO</td><td>4°ano</td></tr>
+            <tr><td>Clep</td><td>11/09/2005</td><td>000.000.000-11</td><td>INFO</td><td>3° ano</td></tr>
+        </tbody> 
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
