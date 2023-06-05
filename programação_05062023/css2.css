@@ -1,0 +1,48 @@
+/* *{
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+} */
+body{
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* tamanho de fonte base*/
+}
+p{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:yellow;
+    text-align: center;
+}
+
+h1{
+    font-size: 150%; /*percentual utiliza um valor como referencia*/
+}
+
+h2{
+    font-size: 1.2em; /*medida relativa, como o percentual */
+}
+
+/* text-decoration: trabalha com sublinhado
+font-weight: trabalha com negrito
+font-style: ytrabalha com italicos
+font-variant: caixa alta
+text-shadow: sombras
+text-transformation:maiuscula/minuscula
+TODAS ESSAS PROPRIEDADES
+ */
+
+ /* TIPOS DE SELETORES
+    *Elemento: qulquer elemento usado na parte body pode ser usado como seletor.
+    *Universal(*): aplica-se a todos os elementos.
+    *ID (#): aplica-se a um elemento com id específico.
+    *CLASSE(.): aplica-se a elementos de determinada CLASSE
+    *PSEUDO-CLASSE(:): aplica-se a estados de alguns elementos. */
+
+#teste{
+    color: blue;
+    text-align: left;
+}
+
+.teste2{/*Seletor de classe*/
+    background-color: red;
+}
