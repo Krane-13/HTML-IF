@@ -1,0 +1,19 @@
+MODELO DE CAIXA CSS
+
+CSS Box MODELO
+
+Todos os elementos são caixas
+
+*Tamnho (largura/altura)
+
+*espaçamento (margem/padding)
+
+*borda -style -width -color
+
+PADING <----> MARGIN
+MARGIN: DISTÂNCIA EXTERNA
+PADDING: DISTÂNCIA INTERNA
+
+width --- largura
+height --- altura
+

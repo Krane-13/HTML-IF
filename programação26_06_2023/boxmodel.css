@@ -1,0 +1,8 @@
+#container{
+    border: solid 5px black;
+    background-color: #ac95e6;
+    width: 90%;
+    /* border-radius: 20%; */
+    margin: 0 auto; /*0 top e bottom, auto no left e right*/
+    padding:20px;
+}
