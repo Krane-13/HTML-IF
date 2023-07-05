@@ -1,0 +1,46 @@
+#container{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-size:2em ;
+}
+
+#produtos h2{
+    font-size: 1.5em;
+}
+
+.produtos .descricao_produto{
+    font-size: 0.9em;
+}
+/* 
+#produtos ul{
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li{
+    color: red;
+}
+#produtos .nome_produtos{
+    color:blue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    color: blue; !important 
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body .produto ul li{
+    color: orange;
+    font-weight: bold;
+}
+
+.produto li{
+    color: green;
+}
+
+#produtos li{
+    color: aquamarine;
+} */
