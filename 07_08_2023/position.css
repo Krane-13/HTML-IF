@@ -1,0 +1,27 @@
+/* #menu-principal{
+    position: relative; 
+     left: 50px;
+    top: 30px; 
+}
+
+#menu-principal li {
+    position: absolute;
+    top: 50px;
+} */
+#menu-principal{
+    background-color: #AAA;
+}
+#menu-principal li{
+    display: inline-block;
+    position:relative; /*para tomar os itens posicionados */
+}
+
+.submenu{    
+    background-color:#AAA;
+    position:absolute;
+    left: -1000px;
+}
+
+#menu-principal li:hover .submenu{
+    left:0;
+}
