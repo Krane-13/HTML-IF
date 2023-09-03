@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+        <title>Página de Critica</title>
+    </head>
+    
+<body>
+    <header>
+        <div class="container">
+            <div class="titulo">
+                <h1>Spy X Family</h1>
+            </div>
+            <ul id="menu-principal">
+                <li>Menu
+                    <ul class="submenu">
+                        <li ><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="personagens.html">PERSONAGENS</a></li>
+                        <li ><a href="critica.html">CRITICA</a></li> 
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="avaliacao">
+        <form  action="processa.php" method="get">
+    
+        <div>
+            <label for="nome_user">Insira seu nome: </label>
+        
+            <input  type="text" name="nome_user" id="nome_user">
+        </div>
+        
+        <div>
+            <label for="nota_user">NOTA: </label>
+            <select name="nota_user" id="nota_user">
+                <option value="ruim">Ruim</option>
+                <option value="bom">Bom</option>
+                <option value="muito_bom">Muito Bom</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="descricao">
+            Descrição sobre a Obra:</label> <br>
+            <textarea name="descricao" id="descricao"></textarea>
+        
+        
+            <input type="submit" name="enviar" id="enviar" value="enviar">
+        </div>
+
+        
+        
+    </form>
+</div>
+</body>
+    
+    
+
+</html>

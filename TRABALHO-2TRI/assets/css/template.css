@@ -1,0 +1,130 @@
+*{font-family: Arial;}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8ca699;
+}
+h1{
+    font-size: 70px
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ca699;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.texto{
+    padding: 15px;
+    margin: 25px;
+    border: 5px solid black;
+    font-size: 20px;
+}
+
+#menu-principal{
+    font-size: 25px;
+    
+}
+
+#menu-principal ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#menu-principal a{
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#000000;
+    font-family:Arial;
+    justify-content: center;
+}
+
+#menu-principal{
+    text-align: center;
+
+}
+#menu-principal li{
+    display: inline-block;
+    position:relative; /*para tomar os itens posicionados */
+    text-align: center;
+    padding-left:15px ;
+    padding-right:15px ;
+}
+
+.submenu{    
+    background-color:#AAA;
+    position:absolute;
+    left: -10000px;
+}
+
+#menu-principal li:hover .submenu{
+    left:0;
+}
+#menu-principal a:hover{
+    background-color: #51a37a;
+    color:#FFFFFF;
+}
+.perso{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.perso p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-p{
+    height: 550px;
+    width: 450px;
+    padding: 70px;
+}
+table{
+    padding: 15px;
+    margin: 25px;
+    border: 5px solid black;
+    font-size: 20px;
+}
+.avaliacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial;
+    font-size: 25px;
+}
+
+#nome_user{
+    padding: 15px;
+    margin: 50px;
+    
+}
+#nota_user{
+    padding: 15px;
+    margin: 50px;
+    
+}
+#descricao{
+    padding: 15px;
+    margin: 50px;
+    
+}
+#enviar{
+    font-family:Arial;
+    font-size: 25px;
+}
+caption{
+    font-family:Arial;
+    font-size: 55px;
+}
