@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br.">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script  src="style.css"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <form action="" method="">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome">
+            <label for="datanasc">Data de Nascimento: </label>
+            <input type="date" id="datanasc">
+
+            <input type="text" id="sigla" placeholder="sigla">
+            <input type="text" id="nome" placeholder="nome por extenso">
+
+            <select id="uf">
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+            </select>
+
+            <label for="city">Cidade: </label>
+            <input type="text" id="city">
+
+            <label>Quantidade de filhos: </label>
+            <input type="radio" id="zerofilhos" name="filhos" value="0" ><label for="zerofilhos">0</label>
+            <input type="radio" id="umatresfilhos"name="filhos" value="1 a 3" ><label for="umatresfilhos">1 a 3</label>
+            <input type="radio" id="maisdetres" name="filhos" value="+3" ><label for="maisdetres">+3</label>
+
+            <input type="button" id="salvar" value="Salvar">
+
+            <input type="button" id="excluir-tudo" value="Excluir Tudo">
+        </form>
+
+        <table id="clientes">
+            <thead>
+                <tr>
+                    <th>Nome</th><th>Data de Nascimento</th><th>Cidade</th><th>UF</th><th>Filhos</th><th>Ação</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <p><span id="quant">0</span> clientes.</p>
+    </div>
+</body>
+
+</html>
