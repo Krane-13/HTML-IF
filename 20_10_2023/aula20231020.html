@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="aula20231020.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form action="" method="">
+            <label for="de">De: </label>
+            <input type="text" id="de">
+            <label for="para">Para: </label>
+            <input type="text" id="para">
+            <label for="km">Km: </label>
+            <input type="number" id="km">
+            <label for="velocidade">Velocidade Média: </label>
+            <input type="number" id="velocidade">
+            <input type="button" id="adicionar" value="Adicionar">
+        </form>
+        <table border="1" id="trajetos">
+            <thead>
+                <tr><th>De</th><th>Para</th><th>Km</th><th>Velocidade</th><th>Tempo</th><th>Ação</th></tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <p><span id="km_total">0</span> km.</p>
+        <p><span id="tempo_total">0</span> horas.</p>
+    </div>
+</body>
+</html>
