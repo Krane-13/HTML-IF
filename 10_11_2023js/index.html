@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script></head>
+
+    <body>
+    <!-- each -> para cada elemento de um certo tipo -->
+    <table id='veiculos'>
+        <thead>
+            <th></th><th>Modelo</th><th>Ano</th><th>Preço</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" class="selecao"></td>
+                <td class="Volkswagen">Fusca</td>
+                <td>1970</td>
+                <td>R$ 5.000,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="selecao"></td>
+                <td class="Volkswagen">Brasilia</td>
+                <td>1967</td>
+                <td>R$ 15.000,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="selecao"></td>
+                <td class="Dodge">Charger</td>
+                <td>1976</td>
+                <td>R$ 7.000,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="selecao"></td>
+                <td class="Ford">Escort XR3</td>
+                <td>1985</td>
+                <td>R$ 27.000,00</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="selecao"></td>
+                <td class="Fiat">Uno</td>
+                <td>2010</td>
+                <td>R$ 50.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="button" id="excluir-selec" value="Excluir Selecionados">
+
+    <select id ="marca">
+        <option>Fiat</option>
+        <option>Ford</option>
+        <option>Chevrolet</option>
+        <option>Dodge</option>
+        <option>Volkswagen</option>
+    </select>
+
+</body>
+</html>
