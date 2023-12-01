@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="index.js" defer></script>
+    <title>kiwify</title>
+</head>
+
+<body>
+
+
+    <h2>Adicionar Produto</h2>
+    <div id="produtos">
+
+        <div class="produto">
+            <label for="nomeProduto">Nome do Produto:</label>
+            <input type="text" id="nomeProduto" class="nomeProduto">
+        </div>
+
+        <div class="produto">
+
+            <label for="imagemProduto">Escolher Imagem:</label>
+            <input type="file" name="imagemProduto" id="imagemProduto" accept="image/*">
+
+            <!-- <input type="file" id="imagemProduto"> -->
+            <!-- <input type="file" id="imagemProduto" class="imagemProduto"> -->
+
+
+        </div>
+
+        <div class="produto">
+            <label for="precoProduto">Preço do Produto:</label>
+            <input type="text" id="precoProduto" class="precoProduto">
+        </div>
+
+        <div class="produto">
+            <!-- coloquei em Maisculo -->
+            <label for="categoriaProduto">Categoria do Produto:</label>
+            <select id="categoriaProduto" class="categoriaProduto">
+                <option value="Eletrica">Elétrica</option>
+                <option value="Motor">Motor</option>
+                <option value="Eixo">Eixo</option>
+                <option value="Pneu">Pneu</option>
+                <option value="Suspensão">Suspensão</option>
+                <option value="Conforto">Conforto</option>
+                <option value="Higiene">Higiene</option>
+                <option value="Ignição">Sistema de ignição</option>
+                <option value="Diversos">Diversos</option>
+
+
+
+
+            </select>
+        </div>
+        <!-- adicionei o preview -->
+        <img src="" alt="" id="preview-image" width="100px">
+
+        <button onclick="adicionarProduto()">Adicionar Produto</button>
+        <div>
+            <!-- adicionei a parte para esconder e mostrar só os selecionadosd -->
+            <select id="catPro">
+                <option>Eletrica</option>
+                <option>Motor</option>
+                <option>Eixo</option>
+                <option>Pneu</option>
+                <option>Suspensão</option>
+                <option>Conforto</option>
+                <option>Higiene</option>
+                <option>Ignição</option>
+                <option>Diversos</option>
+            </select>
+        </div>
+
+
+        <div id="produtosContainer"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>
