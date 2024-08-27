@@ -1,0 +1,40 @@
+/* Definindo uma fonte que remete à informática */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Cor de fundo escura para um efeito tecnológico */
+    color: #e0e0e0; /* Texto em cor clara para contraste */
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1e90ff; /* Azul vibrante */
+    border-bottom: 2px solid #1e90ff; /* Linha azul embaixo do texto */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #1e90ff; /* Borda azul ao redor das imagens */
+}
